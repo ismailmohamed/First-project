@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+  </head>
+
+  <body>
+    <button type="button"  class="btn btn-primary btn-lg"  data-target="#myModal">
+  Contact
+</button>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+<script type="text/javascript">
+
+
+$("button").click(function(ev){
+  ev.preventDefault();
+
+  
+ 
+  console.log("aravind");
+  $("#myModal").modal("show");
+
+  
+});
+
+
+</script>
+
+
+<div class="modal fade" id="myModal" >
+
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="closs" data-dismiss="modal">close</button>
+
+
+</div>
+<div class="modal-body">
+Welcome to my first project<br>
+
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+<button type="button" class="btn btn-default" >thanks</button>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
